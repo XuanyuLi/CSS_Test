@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        #container {
+            background: blue;
+            margin:10px;
+            padding: 10px;
+        }
+        #box1,
+        #box2,
+        #box3 {
+            /*height:100px;*/
+            background-color: #ddd;
+            margin: 50px;
+            padding:30px;
+            border: 10px solid red;
+        }
+        #box1 {
+            float: left;
+            background: transparent;
+            border-color: black;
+            /*border: none;*/
+            /*border-color: transparent;*/
+        }
+        #box2 {
+            float: left;
+        }
+        #box3 {
+            float: left;
+        }
+        /*.clear {*/
+            /*clear: both;*/
+        /*}*/
+        .clear {
+            height: 500px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="box1">box1...</div>
+    <div id="box2">box2...</div>
+    <div id="box3">box3...</div>
+    <div class="clear"></div>
+    <!--<p class="clear"></p>-->
+</div>
+</body>
+</html>

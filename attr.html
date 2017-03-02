@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [id ~=p3] {
+            color: red;
+        }
+        .big {
+            text-decoration: underline;
+        }
+        [class^=big] {
+            font-size: 40px;
+        }
+        p::first-letter {
+            color: red;
+        }
+        p::first-line {
+            font-size: 20px;
+        }
+        p::after {
+            content: url("https://cdn3.iconfinder.com/data/icons/summer-time-element-vol-1/512/3-20.png");
+        }
+        p::before {
+            content: url("https://cdn3.iconfinder.com/data/icons/weather-icons-8/512/weather-partlycloudy-20.png");
+        }
+        p::selection {
+            color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+<h1>h1...</h1>
+<p>p1...</p>
+<p>p2...</p>
+<p id="p3" class="big test">p3...</p>
+<p id="p4" class="big">p4...</p>
+<div id="d1">div1...</div>
+<p>A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.A CSS pseudo-element is used to style specified parts of an element.</p>
+<p>A CSS pseudo-element is used to style specified parts of an element.</p>
+<p>A CSS pseudo-element is used to style specified parts of an element.</p>
+<p>A CSS pseudo-element is used to style specified parts of an element.</p>
+<p>A CSS pseudo-element is used to style specified parts of an element.</p>
+</body>
+</html>
